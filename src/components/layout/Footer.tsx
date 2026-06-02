@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
                 <Cross className="w-4 h-4 text-white fill-white" />
               </div>
-              <span className="text-xl font-bold">HBYS</span>
+              <span className="text-xl font-bold">HBSY</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Hastane Bilgi Yönetim Sistemi, hastalarımıza daha hızlı, daha
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <Mail className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                <span>info@hbys.saglik.gov.tr</span>
+                <span>info@hbsy.saglik.gov.tr</span>
               </li>
             </ul>
           </div>
@@ -72,11 +72,19 @@ const Footer: React.FC = () => {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-sm text-gray-500">
-            © 2026 HBYS - Tüm hakları saklıdır.
+            © 2026 HBSY - Tüm hakları saklıdır.
           </p>
-          <p className="text-xs text-gray-600">
-            T.C. Sağlık Bakanlığı Bilgi Sistemleri
-          </p>
+          <div className="flex flex-col sm:items-end items-center gap-1">
+            <p className="text-xs text-gray-600">
+              T.C. Sağlık Bakanlığı Bilgi Sistemleri
+            </p>
+            <p className="text-xs text-gray-600">
+              Tasarım & Geliştirme:{" "}
+              <span className="text-gray-400 font-medium">Arda Bayhan</span>
+              {" & "}
+              <span className="text-gray-400 font-medium">Gökberk Savaş</span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

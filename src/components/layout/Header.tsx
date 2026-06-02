@@ -36,7 +36,7 @@ const Header: React.FC = () => {
               <Cross className="w-5 h-5 text-teal-600 fill-teal-600" />
             </div>
             <div>
-              <span className="text-xl font-bold tracking-wide">HBYS</span>
+              <span className="text-xl font-bold tracking-wide">HBSY</span>
               <p className="text-teal-200 text-xs leading-none hidden sm:block">
                 Hastane Bilgi Yönetim Sistemi
               </p>
