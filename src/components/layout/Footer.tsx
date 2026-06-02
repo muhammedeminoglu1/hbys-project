@@ -55,11 +55,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 text-teal-500 mt-0.5 flex-shrink-0" />
-                <span>Bilkent, Üniversiteler Mah. 1604. Cadde, 06800 Çankaya/Ankara</span>
+                <span>Gazi Üniversitesi, Emniyet Mah. Bandırma Cad. 06560 Yenimahalle/Ankara</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <Phone className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                <span>+90 (312) 552 60 00</span>
+                <span>+90 506 022 20 02</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <Mail className="w-4 h-4 text-teal-500 flex-shrink-0" />
